@@ -1,0 +1,44 @@
+body{
+    background-image: url(./images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+
+}
+
+.container{display: flex;
+align-items: center;}
+
+.picture{width: 50%; padding: 6rem;}
+
+.text{width: 50%;}
+h2{font-family: 'Poppins', sans-serif;
+color: white;}
+p{font-family: 'Open Sans', sans-serif; color: white;}
+
+button{
+    border: none;
+    border-radius: 20px;
+    padding-left:3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width:200px;
+    color: hsl(300, 2%, 89%) ;
+    font-size: 16px;
+  }
+  
+  button:hover{
+      cursor: pointer;
+      color: white;
+      background-color: hsl(257, 40%, 49%);
+      border: 1px solid;
+  }
+  
+li img{width: 30px;}
+ul{
+    list-style-type: none;
+    display: flex;
+    
+    position:absolute;
+    right: 3rem;
+
+}
